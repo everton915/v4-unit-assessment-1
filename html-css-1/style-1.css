@@ -22,17 +22,32 @@ body, html {
 }
 
 .box1 {
-  border-style:dotted;
+  border-style: dotted;
   border-color: black;
-  box-sizing:content-box;
+  box-sizing: content-box;
   padding: 80px;
-  margin-bottom 25px;
+  margin-bottom: 25px;
 }
 
 .box2{
-  border-style:dotted;
+  border-style: dotted;
   border-color: black;
-  box-sizing:content-box;
+  box-sizing: content-box;
   padding: 80px;
   margin-top: 50px;
+}
+
+.header {
+  text-align: left;
+  font-style: bold; 
+}
+
+.html1 {
+  width: 150px;
+  height: 150px;
+}
+
+.css1 {
+  width: 150px;
+  height: 150px;
 }

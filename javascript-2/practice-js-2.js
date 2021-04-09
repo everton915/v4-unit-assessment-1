@@ -88,7 +88,7 @@ let commit ={
 
 let addRemote ={
     description: 'I believe that it is used to create, view and delete connections to other repositories',
-    code: 'git remote add',
+    code: 'git add remote origin',
 }
 
 //////////////////PROBLEM 9////////////////////

@@ -15,8 +15,8 @@ let yourName = 'Ty';
     the function would return 'Joseph's Grocery List'.
 */
 
-function setGroceryListTitle(x){
-    return (x + 'Grocery List')
+let setGroceryListTitle =function(x) {
+    return x + 'Grocery List';
 }
 //////////////////STEP 4////////////////////
 /* 

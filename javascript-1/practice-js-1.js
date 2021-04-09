@@ -224,4 +224,6 @@ let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
   }
 */
 
-//CODE HERE
+let carFactory (make, model, year){
+
+}

@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+var gitDefinition = 'version control';
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition ='Collaboration and security';
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,23 +33,30 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
-
+let init ={
+    description: 'creates a new Git repository',
+    code: 'git init',
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+let clone ={
+    description: 'clones a repository from GitHub',
+    code: 'git clone',
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
     following the guidelines above to describe the status command.
 */
-
-//CODE HERE
+let status ={
+    description: 'displays the state of the working directory',
+    code: 'git status',
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +64,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add ={
+    description: 'adds files or changes to the staging area where they will be ready to be committed and pushed to GitHub',
+    code: 'git add .',
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +75,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit ={
+    description: 'saves recent changes to the local repository',
+    code: 'git commit -m"sample name"',
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +86,10 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+let addRemote ={
+    description: 'I believe that it is used to create, view and delete connections to other repositories',
+    code: 'git remote add',
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +97,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push ={
+    description: 'pushes submitted and saved changes to GitHub',
+    code: 'git push',
+}

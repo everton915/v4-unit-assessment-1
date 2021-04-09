@@ -12,12 +12,14 @@ let yourName = 'Ty';
     Create a function called 'setGroceryListTitle' that takes in one parameter called 'x'. 
     The function should return a string of 'XPARAM's Grocery List'.
     For example: if the string 'Joseph' is passed in for the variable x 
-    the function would return 'Joseph's Grocery List'.
+    the function would return 'x's Grocery List'.
 */
 
-let setGroceryListTitle =function(x) {
-    return x + 'Grocery List';
+function setGroceryListTitle (x) {
+    return "'x 's Grocery list";
 }
+
+
 //////////////////STEP 4////////////////////
 /* 
     Create a function called 'addItem' that takes in one parameter called 'item'. 

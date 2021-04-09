@@ -4,10 +4,11 @@ body, html {
 }
 
 
-.row {
-  height: 120px;
+.box0 {
+  height: 15vh;
   width: 100%;
-  background-color: #F3907B ;
+  background-color: #F3907B;
+  
 }
 
 .button {

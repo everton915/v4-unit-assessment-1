@@ -1,17 +1,17 @@
 //////////////////PROBLEM 1////////////////////
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
-//CODE HERE 
+let myName = 'Ty';
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
-//CODE HERE
+let faveNum = 15;
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
-//CODE HERE
+let lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -19,7 +19,9 @@
   The function should return the sum of the two parameters.
 */
 
-//CODE HERE
+function sum(num1, num2){
+  return num1 + num2;
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -28,8 +30,16 @@
   If it is, return a true boolean. 
   If 'data' is a falsy value, return a false boolean.
 */
+function trueOrFalse(data){
+  if (data == truthy) {
+    return'true';
+    }
 
-//CODE HERE
+  if (data == falsy) {
+    return 'false';
+  }
+}
+
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -39,7 +49,14 @@
   If the number is even, return the string: 'the number is even'.
 */
 
-//CODE HERE
+function oddChecker(num){
+  if (num == 'odd'){
+    return 'the number is odd'
+  }
+  if (num == "even") {
+    return 'the number is even'
+  }
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -48,7 +65,9 @@
   "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 */
 
-//CODE HERE
+function iLove(name, love){
+
+}
 
 
 //////////////////PROBLEM 8////////////////////
@@ -56,12 +75,12 @@
 
 const faveColors = ['red', 'green', 'black']
 
-//CODE HERE
+let colorCopy =faveColors.slice(0,3)
 
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
-//CODE HERE
+colorCopy.push('blue');
 
 //////////////////PROBLEM 10////////////////////
 /*
@@ -71,7 +90,7 @@ const faveColors = ['red', 'green', 'black']
 
 const numbers = [1, 2, 3, 4, 5]
 
-//CODE HERE
+var middleNums = [1, 2, 3]
 
 //////////////////PROBLEM 11////////////////////
 /*
@@ -114,8 +133,9 @@ const numbers = [1, 2, 3, 4, 5]
   Finally, return the 'reversed' array variable.
 */
 
-//CODE HERE
+function arrayReverser (arr){
 
+}
 //////////////////PROBLEM 14////////////////////
 
 let global = 'cool string'

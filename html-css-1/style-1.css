@@ -8,8 +8,14 @@ body, html {
   height: 15vh;
   width: 100%;
   background-color: #F3907B;
-  
+  padding: 0px;
+  margin-top: -5px;
+  border-style: solid;
+  border-width: thin;
+  text-align: left;
+  text-align: down;
 }
+
 
 .button {
  width: 100px;
@@ -26,8 +32,11 @@ body, html {
   border-style: dotted;
   border-color: black;
   box-sizing: content-box;
-  padding: 80px;
-  margin-bottom: 25px;
+  padding: 60px;
+  margin-bottom: -35px;
+  border-width: thick;
+
+
 }
 
 .box2{
@@ -36,12 +45,14 @@ body, html {
   box-sizing: content-box;
   padding: 80px;
   margin-top: 50px;
+  border-width: thick;
 }
 
 .header {
   text-align: left;
   font-style: bold; 
 }
+
 
 .html1 {
   width: 150px;

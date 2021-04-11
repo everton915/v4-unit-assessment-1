@@ -1,0 +1,139 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.box0 {
+  height: 10vh;
+  width: 100vw;
+  background-color: #67ecdf;
+  padding: 0px;
+  margin-top: -5px;
+  text-align: left;
+  font-family:Georgia
+  font-weight: 55%;
+}
+
+
+.div1 {
+  width: 100px;
+  height: 60px;
+  display: inline-block;
+  text-align: left;
+  font-family:Georgia; 
+  font-style: normal;
+  font-weight: 15;
+  font-size:  65%;
+  font-style: georgia;
+  margin-left: -70px;
+  margin-top: 0px;
+ }
+
+ .box1 {
+  border-style: dashed;
+  border-color: black;
+  box-sizing: content-box;
+  padding: 60px;
+  margin-bottom: -50px;
+  margin-top: 30px;
+  border-width: thin;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-style: georgia;
+  font-weight: 35%;
+  height: 100px;
+ }
+
+ .header1 {
+  text-align: left;
+  font-family: georgia;
+  font-style: normal;
+  margin-top:-245px;
+  padding-left: 14px;
+  font-size: 20px;
+ }  
+
+ .box2 {
+  border-style: dashed;
+  border-color: black;
+  box-sizing: content-box;
+  border-width: thin;
+  font-style: georgia;
+  font-weight: 35%;
+  height: 210px;
+  margin-top: 275px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 50px;
+  padding: 60px;
+  box-sizing: content-box;
+ }
+
+ .header2 {
+  text-align: left;
+  font-family: georgia;
+  font-style: normal;
+  margin-top:-405px;
+  padding-left: 14px;
+  font-size: 20px;
+ }
+
+ .box3 {
+  border-style: dashed;
+  border-color: black;
+  box-sizing: content-box;
+  border-width: thin;
+  font-style: georgia;
+  font-weight: 35%;
+  height: 155px;
+  margin-top: 350px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 150px;
+  padding: 60px;
+  box-sizing: content-box;
+ }
+
+ .header3 {
+  text-align: left;
+  font-family: georgia;
+  font-style: normal;
+  margin-top: -450px;
+  padding-left: 14px;
+  font-size: 20px;
+ }
+
+ .circle1 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: thin;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+.circle2 {
+  height: 105px;
+  width: 105px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: thin;
+  margin-left: 37px;
+  margin-top: 50px;
+  margin-top: 0px;
+}
+
+.circle3 {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: thin;
+  margin-left: 27px;
+  margin-top: 50px;
+  margin-top: 0px;
+}

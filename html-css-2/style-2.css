@@ -135,7 +135,7 @@ body, html {
    border-width: thin;
    border-color: black;
    margin-left: 375px;
-   margin-top: -170px;
+   margin-top: -180px;
  }
 
  /* Headers */
@@ -216,7 +216,7 @@ body, html {
   height: 85px;
   width: 85px;
   border-radius: 50%;
-  background-color: blue;
+  background-color: rgb(10, 47, 255);
   margin-left: 70px;
   margin-top: -110px;
 }
@@ -231,3 +231,55 @@ body, html {
   font-size: 12px;
 }
 
+/* Images */
+.img1 {
+  position: absolute;
+  margin-top: -55px;
+  margin-left: 82px;
+  height: 41px;
+
+
+
+}
+
+.img2 {
+  height: 20px;
+  position: absolute;
+  bottom: 53%;
+  left: 3.5%;
+}
+
+.img3 {
+  position: absolute;
+  height: 20px;
+  top: 405px;
+  left: 90px;
+}
+
+.img4 {
+  position: absolute;
+  height: 20px;
+  top: 405px;
+  left: 60px
+}
+
+.img5 {
+  position: absolute;
+  height: 20px;
+  top: 540px;
+  left: 75px
+}
+
+.img6 {
+  position: absolute;
+  height: 20px;
+  top: 490px;
+  left: 75px
+}
+
+.img7 {
+  position: absolute;
+  height: 20px;
+  top: 515px;
+  left: 75px
+}
